@@ -1,19 +1,16 @@
 # My Linux Configuration Files
+
 This was created for dwm, but can be used with other wm's with a little touching.
 
-All of these files/folders should be in the users home directory (~/) not in a separate folder.
+To start using, run setupArch.sh or setupDebi.sh (no debian setup yet)
 
-Packages needed for the config files to work:
+----------------------------------------
 
-- xorg-xsetroot
-- xorg-xrdb
-- feh
-- rxvt-unicode (terminal emulator urxvt)
-- ttf-ubuntu-font-family (terminal font)
+## What this does
 
-What this config does:
-
-- Change how the urxvt terminal looks
-- Switch keyboard layout to colemak on startx
-- Set background on startx with feh
-- Show the time with xsetroot
+- Installs essential packages needed for the rest of the setup or just nice to have
+- Sets keyboard layout to Colemak
+- Sets the background on startx
+- Downloads and compiles DWM, Dmenu, and Slstatus
+- Installs fonts to avoid font errors
+- Makes my life easier
