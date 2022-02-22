@@ -3,7 +3,7 @@
 # expects you to be in home directory
 
 echo "installing binaries"
-sudo pacman -S xorg-server xorg-xinit libxft libxinerama alacritty gnu-free-fonts ttf-ubuntu-font-family pcmanfm neofetch vim noto-fonts-cjk htop iwd dhcpcd go alsa-utils feh
+sudo pacman -S xorg-server xorg-xinit libxft libxinerama alacritty gnu-free-fonts ttf-ubuntu-font-family pcmanfm neofetch vim noto-fonts-cjk htop iwd dhcpcd go alsa-utils feh base-devel
 
 echo "cloning repositories"
 git clone https://github.com/sahilMujadedi/dwm
